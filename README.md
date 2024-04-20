@@ -13,3 +13,17 @@
 - *r* = 1000, 3000, 10000, 30000, 100000, 300000
 - *s* = 1000, 2000, 4000, 6000, 8000, 10000
 
+## To run
+Start server using
+
+```shell
+hatch run server <max_delay_for_each_request>
+```
+
+Start client using
+
+```shell
+hatch run client <max_delay_for_each_request> -t
+```
+
+The `-t` flag is used to run through the various parameters in the testing phase. Final phase for 1 and 10 million requests does not need this flag.
