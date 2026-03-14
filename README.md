@@ -1,3 +1,5 @@
+> **This repo has been migrated to [GitHub](https://github.com/thoughtsre/1-million-requests-in-python).**
+
 # 1 million requests in Python
 
 ## Aims
